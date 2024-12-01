@@ -35,7 +35,7 @@ Este projeto consiste em uma aplicação web para cadastro de usuários, desenvo
 
 **Como executar o projeto:**
 
-1.  Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git
+1.  Clone o repositório
     
 2.  Instale as dependências: npm install
     
