@@ -55,3 +55,5 @@ Este projeto consiste em uma aplicação web para cadastro de usuários, desenvo
 *   Realizar testes unitários e de integração.
     
 *   Refatorar o código e otimizar o desempenho.
+
+    ![0](https://github.com/user-attachments/assets/80e1e5ea-b0a0-478e-b346-87375470a0f0)
