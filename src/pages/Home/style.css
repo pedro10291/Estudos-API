@@ -1,0 +1,86 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+h1{
+  color: #dbdbdb;
+  font-size: 28px;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  border: 10px;
+  background-color:#21201e71 ;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+
+  & button{
+    border-radius: 30px;
+    background-color: rgba(219, 102, 102, 0.937);
+    height: 40px;
+    border: 1px solid #fd000026 ;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 14px;
+    color: #dbdbdb;
+  }
+
+  & button:hover {
+    opacity: 0.8;
+  }
+
+  & input {
+    border: 1px solid #fd000026 ;
+    border-radius: 30px;
+    height: 40px;
+    background-color: rgba(219, 102, 102, 0.685);
+    color: #dbdbdb;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+  }
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  background-color: #21201e71;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  
+
+  & p{
+    color: #dbdbdb;
+    font-weight: bold;
+  
+    & span{
+      font-weight: normal;
+    }
+
+  }
+  & button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2ss;
+  }
+  & button:hover{
+    opacity: 0.8;
+  }
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
